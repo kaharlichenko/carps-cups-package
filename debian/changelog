@@ -1,3 +1,9 @@
+printer-driver-carps (0.0+150~g3e717eb-1ubuntu1) trusty; urgency=medium
+
+  * Fix build-dependencies
+
+ -- Ihor Kaharlichenko <madkinder@gmail.com>  Sat, 08 Nov 2014 21:13:34 +0000
+
 printer-driver-carps (0.0+150~g3e717eb-1) trusty; urgency=low
 
   * Initial release
