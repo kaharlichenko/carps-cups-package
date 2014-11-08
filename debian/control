@@ -1,0 +1,30 @@
+Source: printer-driver-carps
+Section: text
+Priority: optional
+Maintainer: Ihor Kaharlichenko <madkinder@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://github.com/ondrej-zary/carps-cups
+Vcs-Git: https://github.com/madkinder/carps-cups-package
+
+Package: printer-driver-carps
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: CUPS driver for Canon CARPS
+ This package provides rastertocups filter and PPD files,
+ which adds support for some printers manufactured by Canon.
+ .
+ Printers known to use CARPS data format:
+  * MF5730
+  * MF5750
+  * MF5770
+  * MF5630
+  * MF5650
+  * MF3110
+  * imageCLASS D300
+  * LASERCLASS 500
+  * FP-L170/MF350/L380/L398
+  * LC310/L390/L408S
+  * PC-D300/FAX-L400/ICD300
+  * L180/L380S/L398S
+

@@ -1,0 +1,4 @@
+rastertocarps usr/lib/cups/filter
+carps.drv usr/share/cups/drv
+ppd/*.ppd usr/share/ppd/carps
+

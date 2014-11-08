@@ -1,0 +1,5 @@
+printer-driver-carps (0.0+150~g3e717eb-1) trusty; urgency=low
+
+  * Initial release
+
+ -- Ihor Kaharlichenko <madkinder@gmail.com>  Sat, 08 Nov 2014 11:46:28 +0000
