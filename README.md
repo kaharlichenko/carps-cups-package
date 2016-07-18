@@ -12,7 +12,7 @@ Printers known to use CARPS data format:
 Printer type (IEEE1284 ID)	| Status
 --------------------------------|--------------------------------------------------------
 MF5730				| works
-MF5750				| should work
+MF5750				| works
 MF5770				| should work
 MF5630				| works
 MF5650				| should work
@@ -59,6 +59,10 @@ For this to work, file: device URIs must be enabled in CUPS configuration:
 
     FileDevice Yes
 
+You need to restart CUPS then:
+
+    $ sudo service cups restart
+
 
 Multiple USB printers
 ---------------------
@@ -70,11 +74,11 @@ If you have multiple USB printers, the usblp devices might be assigned different
 
 You can find your printer's IEEE1284 ID by running:
 
-    udevadm info -a --name=/dev/usb/lpX
+    # udevadm info -a --name=/dev/usb/lpX
 
 When you are done restart udev:
 
-    sudo service udev restart
+    $ sudo service udev restart
 
 Ensure that /dev/canonD320 points to /dev/usb/lpX
 
