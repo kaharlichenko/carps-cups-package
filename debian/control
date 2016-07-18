@@ -3,7 +3,7 @@ Section: text
 Priority: optional
 Maintainer: Ihor Kaharlichenko <madkinder@gmail.com>
 Build-Depends: debhelper (>= 9), libcups2-dev, libcupsimage2-dev, cups-ppdc
-Standards-Version: 3.9.5
+Standards-Version: 3.9.7
 Homepage: https://github.com/ondrej-zary/carps-cups
 Vcs-Git: https://github.com/madkinder/carps-cups-package
 

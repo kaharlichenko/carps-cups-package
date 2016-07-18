@@ -1,3 +1,9 @@
+printer-driver-carps (0.0+152~eb47211b-0ubuntu1~xenial) xenial; urgency=medium
+
+  * Rebuild for xenial
+
+ -- Ihor Kaharlichenko <madkinder@gmail.com>  Mon, 18 Jul 2016 22:55:19 +0200
+
 printer-driver-carps (0.0+152~eb47211b-0ubuntu1~trusty) trusty; urgency=medium
 
   * New upstream snapshot
