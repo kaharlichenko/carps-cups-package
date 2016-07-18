@@ -1,3 +1,9 @@
+printer-driver-carps (0.0+152~eb47211b-0ubuntu1~trusty) trusty; urgency=medium
+
+  * New upstream snapshot
+
+ -- Ihor Kaharlichenko <madkinder@gmail.com>  Mon, 18 Jul 2016 21:38:05 +0200
+
 printer-driver-carps (0.0+150~g3e717eb-1ubuntu1) trusty; urgency=medium
 
   * Fix build-dependencies
